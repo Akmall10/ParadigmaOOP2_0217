@@ -12,14 +12,15 @@ public:
     }
 };
 
-
-class lia : public seseorang
+class joko : public seseorang
 {
     void pesan()
     {
         cout << "Pesan dari seseorang" << endl;
     }
 };
+
+
 
 int main()
 {
