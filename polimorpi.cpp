@@ -20,20 +20,12 @@ class joko : public seseorang
     }
 };
 
-c
-
-int main()
+class lia : public seseorang
 {
-    seseorang *obyek;
-    joko a;
-    lia b;
+    void pesan()
+    {
+        cout << "Pesan dari seseorang" << endl;
+    }
+};
 
-    obyek = &a;
-     obyek ->pesan();
-    obyek = &a;
-    obyek ->pesan();
-    // a.seseorang::pesan();
-    // b.seseorang::pesan();
 
-    return 0;
-}
