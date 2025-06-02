@@ -12,7 +12,13 @@ public:
     }
 };
 
-
+class joko : public seseorang
+{
+    void pesan()
+    {
+        cout << "Pesan dari seseorang" << endl;
+    }
+};
 
 class lia : public seseorang
 {
@@ -35,5 +41,4 @@ int main()
     // a.seseorang::pesan();
     // b.seseorang::pesan();
 
-    return
 }
